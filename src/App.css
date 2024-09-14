@@ -1,0 +1,311 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  color: black
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;700&display=swap');
+
+.container {
+  width: 1900px;
+  margin: 0 auto;
+}
+
+.tepa {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  width: 1900px;
+  gap: 8px;
+  height: 100px;
+}
+
+.orta {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  width: 669px;
+  height: 36px;
+  top: 32.5px;
+  left: 674px;
+  gap: 8px;
+}
+
+.ong {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.chat {
+  margin-right: 10px;
+}
+
+.need {
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 30px;
+  text-align: left;
+  opacity: 40%;
+}
+
+.chatt a {
+  font-size: 18px;
+  font-weight: 600;
+  line-height: 28px;
+  text-align: left;
+}
+.chap{
+cursor: pointer;
+}
+
+.p {
+  display: flex;
+  justify-content: center;
+  width: 140px;
+  height: 36px;
+  padding: 5px 18px 5px 18px;
+  gap: 5px;
+  font-size: 15px;
+  font-weight: 700;
+  line-height: 26px;
+  letter-spacing: 1.399999976158142px;
+  text-align: left;
+  border-radius: 25px;
+  transition: 1s;
+}
+
+.p:hover{
+  background-color:#83CD20;
+}
+
+
+
+.back{
+  width: 100%;
+  height: 840px;
+  top: 20px;
+  gap: 0px;
+  background-image: url('/src/background.webp');
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.backyozuv{
+  width: 983px;
+  font-size: 80px;
+  font-weight: 700;
+  line-height: 90px;
+  text-align: center;
+  color: white; 
+margin-left: 460px;
+padding-top: 210px;
+
+}
+
+.green{
+color:#83CD20;
+margin: 0 auto;
+}
+
+.backyozuv p {
+  width: 520px;
+  height: 60px;
+  top: 525.04px;
+  left: 700px;
+font-size: 16px;
+font-weight: 400;
+line-height: 30px;
+text-align: center;
+margin-left: 220px;
+color: white;
+margin-top: 30px;
+}
+.button {
+  display: flex;
+  align-items: center;
+  font-family: inherit;
+  cursor: pointer;
+  font-weight: 500;
+  font-size: 17px;
+  padding: 0.8em 1.3em 0.8em 0.9em;
+  color: white;
+  background: #ad5389;
+  background: linear-gradient(to right, #83CD20, #83CD20, #83CD20);
+  border: none;
+  letter-spacing: 0.05em;
+  border-radius: 150px;
+  margin-left: 860px;
+  margin-top: 30px;
+  width: 163px;
+  transition: all 1s;
+}
+
+.button svg {
+  margin-right: 3px;
+  transform: rotate(30deg);
+  transition: transform 0.5s cubic-bezier(0.76, 0, 0.24, 1);
+}
+
+.button span {
+  transition: transform 0.5s cubic-bezier(0.76, 0, 0.24, 1);
+}
+
+.button:hover svg {
+  transform: translateX(5px) rotate(90deg);
+}
+
+.button:hover span {
+  transform: translateX(7px);
+}
+
+
+.button1 {
+  display: flex;
+  align-items: center;
+  font-family: inherit;
+  cursor: pointer;
+  font-weight: 500;
+  font-size: 17px;
+  padding: 0.8em 1.3em 0.8em 0.9em;
+  color: white;
+  background: #ad5389;
+  background: linear-gradient(to right, #83CD20, #83CD20, #83CD20);
+  border: none;
+  letter-spacing: 0.05em;
+  border-radius: 150px;
+  margin-top: 30px;
+  width: 163px;
+  transition: all 1s;
+}
+
+.button1 svg {
+  margin-right: 3px;
+  transform: rotate(30deg);
+  transition: transform 0.5s cubic-bezier(0.76, 0, 0.24, 1);
+}
+
+.button1 span {
+  transition: transform 0.5s cubic-bezier(0.76, 0, 0.24, 1);
+}
+
+.button1:hover svg {
+  transform: translateX(5px) rotate(90deg);
+}
+
+.button1:hover span {
+  transform: translateX(7px);
+}
+
+ 
+.p {
+  width: 140px;
+  height: 36px;
+  border-radius: 25px;
+  font-weight: bold;
+  letter-spacing: 5px;
+  text-transform: uppercase;
+  cursor: pointer;
+  transition: all 1000ms;
+  font-size: 15px;
+  position: relative;
+  overflow: hidden;
+  text-align: center;
+}
+.p:hover {
+  color: #ffffff;
+  transform: scale(1.1);
+  outline: 2px solid #83CD20;
+  box-shadow: 4px 5px 17px -4px #83CD20;
+}
+.p::before {
+  content: "";
+  position: absolute;
+  left: -50px;
+  top: 0;
+  width: 0;
+  height: 100%;
+  background-color: #83CD20;
+  transform: skewX(45deg);
+  z-index: -1;
+  transition: width 1000ms;
+}
+
+.p:hover::before {
+  width: 250%;
+}
+
+
+.about{
+  width: 1290px;
+  height: 618px;
+  top: 1020px;
+  left: 315px;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  gap: 90px;
+  margin-top: 120px;
+}
+
+.content{
+  width: 600px;
+  height: 442px;
+  top: 1121px;
+  left: 1005px;
+}
+
+.content .p1 {
+  width: 81px;
+  height: 14px;
+font-size: 14px;
+font-weight: 600;
+line-height: 14px;
+letter-spacing: 1.4px;
+text-align: left;
+}
+
+.content h3{
+  width: 600px;
+  height: 120px;
+  font-size: 50px;
+  font-weight: 700;
+  line-height: 60px;
+  text-align: left;
+  margin-bottom: 20px;
+}
+
+.content .div{
+  width: 520px;
+  height: 60px;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 30px;
+  text-align: left;
+  opacity: 40%;
+}
+
+.kichkina{
+display: flex;
+width: 600px;
+margin-top: 20px;
+}
+
+.kichik{
+  width: 270px;
+  height: 98px;
+  line-height: 30px;
+}
+.chek{
+  font-size: 18px;
+  font-weight: 600;
+  line-height: 28px;
+  text-align: left;
+  
+}
+
+.p2{
+opacity: 40%;
+}
